@@ -11,6 +11,11 @@
     font-family: "Poppins", sans-serif;
 }
 
+*::selection {
+    color: white;
+    background-color: black;
+}
+
 html,
 body {
     height: 100%;
@@ -103,9 +108,4 @@ nav a {
     bottom: -10vh;
     font-size: 1.5rem;
     font-weight: 400;
-}
-
-.home main p::selection {
-    color: white;
-    background-color: black;
 }
