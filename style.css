@@ -32,16 +32,6 @@ a {
     width: 100%;
 }
 
-
-
-
-/* -----Home section----- */
-.home {
-    min-height: 100vh;
-    width: 100vw;
-}
-
-
 /* Navbar of home */
 nav {
     display: flex;
@@ -74,8 +64,10 @@ nav a {
     margin: 5px;
 }
 
-/* Home Main content */
-.home main {
+
+
+/* -----Home section----- */
+.home {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -85,24 +77,24 @@ nav a {
     height: 80vh;
 }
 
-.home main h2 {
+.home h2 {
     font-weight: 450;
     font-size: 1.2rem;
 }
 
-.home main .headings {
+.home .headings {
     display: flex;
     gap: 2vw;
 }
 
-.home main .headings h1 {
+.home .headings h1 {
     -webkit-text-stroke: 1px black;
     color: transparent;
     font-family: "poppins", sans-serif;
     font-size: 7vw;
 }
 
-.home main p {
+.home p {
     position: absolute;
     left: 0;
     bottom: -10vh;
