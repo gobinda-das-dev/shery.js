@@ -1,3 +1,9 @@
+/* --Importing fonts-- */
+@font-face {
+    font-family: Roboto-flex-variable;
+    src: url(fonts/roboto-flex-variable-full.woff2);
+}
+
 * {
     margin: 0;
     padding: 0;
