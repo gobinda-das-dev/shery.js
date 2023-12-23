@@ -95,6 +95,11 @@ nav a {
     font-size: 7vw;
 }
 
+.home .headings h1:hover {
+    color: black;
+    -webkit-text-stroke: 0;
+}
+
 .home p {
     position: absolute;
     left: 0;
