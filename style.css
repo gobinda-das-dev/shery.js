@@ -98,7 +98,7 @@ nav a {
     position: absolute;
     left: 0;
     bottom: -10vh;
-    font-size: 1.5rem;
+    font-size: 1.7vw;
     font-weight: 400;
 }
 
@@ -189,4 +189,24 @@ nav a {
     border-radius: 100px;
     font-weight: 500;
     background-color: white;
+}
+
+
+
+
+
+/* ------Developement and Designs------ */
+.dev {
+    width: 100%;
+    padding: 15vw;
+}
+
+.dev h1 {
+    font-size: 4.5vw;
+    font-weight: 400;
+}
+
+.dev p {
+    font-size: 1.7vw;
+    margin-top: 3vw;
 }
