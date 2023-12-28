@@ -93,6 +93,7 @@ nav a {
     color: transparent;
     font-family: "poppins", sans-serif;
     font-size: 7vw;
+    transition: all 0.3s;
 }
 
 .home .headings h1:hover {
